@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harini | Web Developer Portfolio</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(to right, #4a90e2, #9013fe);
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+        header img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+            border: 4px solid white;
+            margin-bottom: 20px;
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin: 10px 0 5px;
+        }
+        header p {
+            font-size: 1.2em;
+            max-width: 600px;
+            margin: auto;
+        }
+        nav {
+            background: #333;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        section {
+            padding: 60px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        section h2 {
+            text-align: center;
+            margin-bottom: 40px;
+            color: #4a90e2;
+        }
+        .skills, .projects {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            padding: 20px;
+            width: 280px;
+            text-align: center;
+        }
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <img src="https://copilot.microsoft.com/th/id/BCO.5c667283-6707-4b55-ae6c-2bf891c7478f.png" alt="Harini Photo">
+        <h1>Hello, I'm Harini 👩‍💻</h1>
+        <p>Passionate Web Developer</p>
+        <p>Building modern, responsive, and bilingual applications with Python, React & Flask.</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="https://copilot.microsoft.com/th/id/BCO.5c667283-6707-4b55-ae6c-2bf891c7478f.png" alt="Harini Working" style="width: 100%; border-radius: 10px; margin-bottom: 20px;">
+        <p>I am a web developer with a strong background in data science, machine learning, and UI/UX design. I hold a degree in Computer Science and have worked on projects ranging from sentiment analysis pipelines to bilingual admin dashboards. My passion lies in creating accessible, visually appealing, and functional web applications.</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="skills">
+            <div class="card">
+                <img src="https://cdn-icons-png.flaticon.com/512/919/919828.png" alt="Frontend Development">
+                <h3>Frontend Development</h3>
+                <p>React, HTML, CSS, JavaScript</p>
+            </div>
+            <div class="card">
+                <img src="https://cdn-icons-png.flaticon.com/512/919/919832.png" alt="Backend Development">
+                <h3>Backend Development</h3>
+                <p>Flask, Python, REST APIs</p>
+            </div>
+            <div class="card">
+                <img src="https://cdn-icons-png.flaticon.com/512/2103/2103658.png" alt="Data Science">
+                <h3>Data Science</h3>
+                <p>Pandas, Scikit-learn, NLP</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Recent Projects</h2>
+        <div class="projects">
+            <div class="card">
+                <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="Titanic Data Analysis">
+                <h3>Titanic Data Analysis</h3>
+                <p>Data pipeline for Titanic dataset analysis and visualization.</p>
+            </div>
+            <div class="card">
+                <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Bilingual Admin Dashboard">
+                <h3>Bilingual Admin Dashboard</h3>
+                <p>Multilingual admin panel with Tamil and English support.</p>
+            </div>
+            <div class="card">
+                <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png" alt="Sentiment Analysis Tool">
+                <h3>Sentiment Analysis Tool</h3>
+                <p>NLP workflow for sentiment analysis and visualization.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Get In Touch</h2>
+        <p>📧 harini@example.com</p>
+        <p>🔗 linkedin.com/in/harini</p>
+        <p>💻 github.com/harini</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Harini | Web Developer Portfolio</p>
+    </footer>
+
+</body>
+</html>
